@@ -1,7 +1,12 @@
+package helloWorld;
+
 public class SpeedConverter {
     public static void main(String[] args){
-        SpeedConverter.toMilesPerHour(15);
-        SpeedConverter.printConversion(15);
+        toMilesPerHour(15);
+        printConversion(15);
+
+        Hello.message("Hello my name is Jian");
+
     }
 
     public static long toMilesPerHour(double kilometersPerHour){
