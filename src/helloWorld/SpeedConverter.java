@@ -1,4 +1,5 @@
 package helloWorld;
+import oop.Person;
 
 public class SpeedConverter {
     public static void main(String[] args){
@@ -6,6 +7,8 @@ public class SpeedConverter {
         printConversion(15);
 
         Hello.message("Hello my name is Jian");
+        Person.message();
+
 
     }
 
