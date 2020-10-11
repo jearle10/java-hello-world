@@ -1,14 +1,9 @@
-package helloWorld;
-import oop.Person;
+package methods;
 
 public class SpeedConverter {
     public static void main(String[] args){
         toMilesPerHour(15);
         printConversion(15);
-
-        Hello.message("Hello my name is Jian");
-        Person.message();
-
 
     }
 

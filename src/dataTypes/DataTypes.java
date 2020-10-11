@@ -1,8 +1,11 @@
-package helloWorld;
+package dataTypes;
 
 public class DataTypes {
-    public static void main(String[] args){
 
+    public static void main (String[] args){
+        printTypes();
+    }
+    public static void printTypes () {
         byte byteMin = Byte.MIN_VALUE;
         byte byteMax = Byte.MAX_VALUE;
 
@@ -38,5 +41,6 @@ public class DataTypes {
 
         System.out.println("Min value of a double is " + doubleMin); // 4.9E-324
         System.out.println("Max value of a double is " + doubleMax); // 1.7976931348623157E308
+
     }
 }
